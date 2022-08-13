@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <Link  href="/">
       
-       <a className="Heading"> Mustafa Osman</a>
+       <a rel="noreferrer" className="Heading"> Mustafa Osman</a>
 
       </Link>
 
@@ -18,7 +18,7 @@ export default function Header() {
         </p>
         <p>
           <FaGithubAlt size={25} title="GitHub"></FaGithubAlt>
-          <a href="http://github.com/musta20" target={"_blank"}>
+          <a rel="noreferrer" href="http://github.com/musta20" target={"_blank"}>
             Github
           </a>
         </p>

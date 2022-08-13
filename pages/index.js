@@ -2,11 +2,11 @@ import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout title={'Mustafa Osman'}>
       <article>
         <span className="HeadingMain">Mustafa Osman</span>
         <p>
-          “I'm a full stack developer with programming experience in building
+          “I&apos;m a full stack developer with programming experience in building
           high performance web applications for small to midsize businesses .
         </p>
 
