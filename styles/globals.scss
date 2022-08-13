@@ -176,37 +176,16 @@ span{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
-
-  article {
-    margin: 0.3rem;
-    padding: 0.3rem;
-  
-  }
-  
-  figure{
-    margin: 0.3rem;
-    padding: 0.3rem;
-  div{
+  footer{
     display: block;
-
-  }
-  }
-
-
-footer {
-  display: block;
- 
-  padding: 0.3rem 0;
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 800px) {
-  article {
-    margin: 1rem;
-    padding: 1rem;
    
   }
+
+  article {
+    margin: 1rem;
+    padding: 1rem;
+  
+  }
   
   figure{
     margin: 1rem;
@@ -215,6 +194,39 @@ footer {
     display: block;
 
   }
-  }}
+  }
+.container{
+  padding: 0.5rem;
+}
+ 
+}
+
+
+
+@media only screen and (max-width: 780px) 
+{
+  footer{
+    display: block;
+  
+  }
+
+  article {
+    margin: 1rem;
+    padding: 1rem;
+  
+  }
+  
+  figure{
+    margin: 1rem;
+    padding: 1rem;
+  div{
+    display: block;
+
+  }
+  }
+.container{
+  padding: 0.5rem;
+}
+ 
 
 }
