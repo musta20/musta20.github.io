@@ -52,10 +52,16 @@ display: flex;
       display: flex;
       gap: 3px;
       color: $headerGroudColor;
+      
       padding: 0.1rem;
+    }
+    p:hover{
+      color:#00526d;
     }
   }
 }
+
+
 
 article {
   margin: 3rem;
@@ -87,20 +93,19 @@ figure{
     align-self:  center;
     gap: 1rem;
   }
-  figure{
-  }
-
+ 
   img {
 
     border-radius:5px;
     box-shadow: 2px 2px 5px #006080;
     display: block;
-    max-width:372px;
-    max-height:192px;
+ 
     width: auto;
     height: auto;
   }
+ 
 }
+ 
 
 .Heading {
   font-weight: bolder;
@@ -109,6 +114,11 @@ figure{
   -webkit-text-fill-color: transparent;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 1rem;
+}
 
 .HeadingMain {
   font-size: 4rem;

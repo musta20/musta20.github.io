@@ -45,6 +45,9 @@ header nav p {
   color: #29a9d4;
   padding: 0.1rem;
 }
+header nav p:hover {
+  color: #00526d;
+}
 
 article {
   margin: 3rem;
@@ -80,8 +83,6 @@ figure img {
   border-radius: 5px;
   box-shadow: 2px 2px 5px #006080;
   display: block;
-  max-width: 372px;
-  max-height: 192px;
   width: auto;
   height: auto;
 }
@@ -91,6 +92,12 @@ figure img {
   background: -webkit-linear-gradient(45deg, #cc6666, #33ccff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 1rem;
 }
 
 .HeadingMain {
@@ -181,4 +188,6 @@ footer p {
   .container {
     padding: 0.5rem;
   }
-}/*# sourceMappingURL=globals.css.map */
+}
+
+/*# sourceMappingURL=globals.css.map */

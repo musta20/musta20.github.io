@@ -11,11 +11,11 @@ export default function Home() {
         </p>
 
         <p>
-          Working with back-end technology : nodejs , graphql , rest-api ,
+          Working with back-end technology : laravel , livewire , rest-api ,
           expressjs.
         </p>
         <p>
-          Build a ui using platforms like : react , nextjs, redux , bootstrap5 ,
+          Build a ui using platforms like : livewire , remix , tailwind ,
           chakra-ui , css , html .
         </p>
         <p> Manage and test the project from start to end.</p>
