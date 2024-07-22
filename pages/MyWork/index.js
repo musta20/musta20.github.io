@@ -5,7 +5,7 @@ import lrf from "../../assets/imgs/laravel-record-filter.png";
 import mybnb from "../../assets/imgs/mybnb.png";
 import asset from "../../assets/imgs/asset.png";
 import base from "../../assets/imgs/baseproject.png";
- 
+
 import { useState } from "react";
 import Layout from "../../components/Layout";
 import Image from "next/image";
@@ -21,8 +21,8 @@ export default function MyWork() {
             <h3>Mediasoup-cli</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={mediasoup.src}
                 alt="mediaspu-cli"
               ></Image>
@@ -55,14 +55,14 @@ export default function MyWork() {
         </FadeInSection>
       )}
 
-{isShown && (
+      {isShown && (
         <FadeInSection>
           <figure id="mywork">
             <h3>laravel records filter</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={lrf.src}
                 alt="laravel-records-filter"
               ></Image>
@@ -95,22 +95,22 @@ export default function MyWork() {
         </FadeInSection>
       )}
 
-
-{isShown && (
+      {isShown && (
         <FadeInSection>
           <figure id="mywork">
             <h3>matajer</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={smt.src}
                 alt="laravel-records-filter"
               ></Image>
 
               <figcaption>
                 <p>
-                  matajer is eCommerce platform for create small business online store.
+                  matajer is eCommerce platform for create small business online
+                  store.
                 </p>
                 <p>
                   <a
@@ -129,29 +129,30 @@ export default function MyWork() {
                 >
                   9802131.xyz/
                 </a>
+                <p className="bold" >Login Credentials:</p>
+                <p>login url : <a href="https://musta.9802131.xyz/login">https://musta.9802131.xyz/login</a></p>
+                <p>username : musta@musta.com</p>
+                <p>password : 1234</p>
               </figcaption>
             </div>
           </figure>
         </FadeInSection>
       )}
 
-
-{isShown && (
+      {isShown && (
         <FadeInSection>
           <figure id="mywork">
             <h3>mybnb</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={mybnb.src}
                 alt="mybnb"
               ></Image>
 
               <figcaption>
-                <p>
-                  mybnb is a booking platform similar to airbnb.
-                </p>
+                <p>mybnb is a booking platform similar to airbnb.</p>
                 <p>
                   <a
                     rel="noreferrer"
@@ -167,39 +168,38 @@ export default function MyWork() {
                   href="http://mybnb.testgit.xyz/"
                   target={"_blank"}
                 >
-                 mybnb.testgit.xyz
+                  mybnb.testgit.xyz
                 </a>
+                <p className="bold">Login Credentials:</p>
+                <p>Username: admin@admin.com</p>
+                <p>Password: password</p>
               </figcaption>
             </div>
           </figure>
         </FadeInSection>
       )}
 
-
-
-{isShown && (
+      {isShown && (
         <FadeInSection>
           <figure id="mywork">
             <h3>assets mangment system</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={asset.src}
                 alt="mybnb"
               ></Image>
 
               <figcaption>
-                <p>
-                  Assets mangment system build using filamentphp.
-                </p>
+                <p>Assets mangment system build using filamentphp.</p>
                 <p>
                   <a
                     rel="noreferrer"
                     href="https://github.com/musta20/assets_management_laravel"
                     target={"_blank"}
                   >
-                   github.com/musta20/assets_management_laravel
+                    github.com/musta20/assets_management_laravel
                   </a>
                 </p>
 
@@ -208,38 +208,39 @@ export default function MyWork() {
                   href="http://asset.testgit.xyz/"
                   target={"_blank"}
                 >
-                 asset.testgit.xyz
+                  asset.testgit.xyz
                 </a>
+                <p className="bold">Login Credentials:</p>
+                <p>login url : <a href="https://asset.testgit.xyz/login">https://asset.testgit.xyz/login</a></p>
+                <p>Username: admin@admin.com</p>
+                <p>Password: admin</p>
               </figcaption>
             </div>
           </figure>
         </FadeInSection>
       )}
 
-
-{isShown && (
+      {isShown && (
         <FadeInSection>
           <figure id="mywork">
             <h3>cms</h3>
             <div>
               <Image
-               width={372}
-               height={192}
+                width={372}
+                height={192}
                 src={base.src}
                 alt="mybnb"
               ></Image>
 
               <figcaption>
-                <p>
-                  baceproject is cms based on laravel.
-                </p>
+                <p>baceproject is cms based on laravel.</p>
                 <p>
                   <a
                     rel="noreferrer"
                     href="https://github.com/musta20/baseProject"
                     target={"_blank"}
                   >
-                   github.com/musta20/baseProject
+                    github.com/musta20/baseProject
                   </a>
                 </p>
 
@@ -248,16 +249,19 @@ export default function MyWork() {
                   href="http://baseproject.testgit.xyz/"
                   target={"_blank"}
                 >
-                 baseproject.testgit.xyz
+                  baseproject.testgit.xyz
                 </a>
+                <p className="bold">Login Credentials:</p>
+                <p>login url : <a href="https://baseproject.testgit.xyz/login">https://baseproject.testgit.xyz/login</a></p>
+                <p>Username: admin@admin.com
+
+</p>
+                <p>Password: admin</p>
               </figcaption>
             </div>
           </figure>
         </FadeInSection>
       )}
-
-
-
     </Layout>
   );
 }

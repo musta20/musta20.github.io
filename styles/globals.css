@@ -87,6 +87,10 @@ figure img {
   height: auto;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .Heading {
   font-weight: bolder;
   background: -webkit-linear-gradient(45deg, #cc6666, #33ccff);
