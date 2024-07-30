@@ -6,30 +6,41 @@ import { PiPaintBrush } from "react-icons/pi";
 import Link from "next/link";
 export default function Header() {
   return (
-    <header>
-      <Link  href="/">
-      
-       <a rel="noreferrer" className="Heading"> Mustafa Osman</a>
-
+    <header className="flex p-5 align-center justify-between ">
+      <Link href="/">
+        <a
+          rel="noreferrer"
+          className="Heading bg-gradient-to-r from-[#cc6666] to-[#33ccff] p-1 bg-clip-text text-transparent  font-bold "
+        >
+          {" "}
+          Mustafa Osman
+        </a>
       </Link>
 
-      <nav>
-        <p  >
-          <BiBuildingHouse size={25} title="MyWork"></BiBuildingHouse>
+      <nav className="flex gap-10 text-md  text-[#29a9d4]">
+        <Link href="/MyWork">
+          <div className="flex place-items-center cursor-pointer hover:text-[#00526d]  flex-col ">
+            <BiBuildingHouse size={25} title="MyWork"></BiBuildingHouse>
+            MyWork
+          </div>
+        </Link>
 
-          <Link href="/MyWork">MyWork</Link>
-        </p>
-        <p>
-          <PiPaintBrush size={25} title="MyDesign"></PiPaintBrush>
+        <Link href="/MyDesign">
+          <div className="flex place-items-center cursor-pointer hover:text-[#00526d]  flex-col ">
+            <PiPaintBrush size={25} title="MyDesign"></PiPaintBrush>
+            MyDesign
+          </div>
+        </Link>
 
-          <Link href="/MyDesign">MyDesign</Link>
-        </p>
-        <p>
+        <a
+          rel="noreferrer"
+          href="http://github.com/musta20"
+          target={"_blank"}
+          className="flex place-items-center hover:text-[#00526d]   flex-col"
+        >
           <FaGithubAlt size={25} title="GitHub"></FaGithubAlt>
-          <a rel="noreferrer" href="http://github.com/musta20" target={"_blank"}>
-            Github
-          </a>
-        </p>
+          Github
+        </a>
       </nav>
     </header>
   );

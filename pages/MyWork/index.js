@@ -17,23 +17,29 @@ export default function MyWork() {
     <Layout title={"Mustafa Osman : My Work"}>
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>Mediasoup-cli</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={mediasoup.src}
-                alt="mediaspu-cli"
-              ></Image>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                  Mediasoup-cli
+                </h3>
 
-              <figcaption>
-                <p>
+                <Image
+                  width={372}
+                  height={192}
+                  src={mediasoup.src}
+                  alt="mediaspu-cli"
+                ></Image>
+              </div>
+
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
                   JavaScript cli tool for monitoring mediasoup server
                   applications.
                 </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/mediasoup-cli"
                     target={"_blank"}
@@ -43,6 +49,7 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="https://www.npmjs.com/package/mediasoup-cli"
                   target={"_blank"}
@@ -57,23 +64,27 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>laravel records filter</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={lrf.src}
-                alt="laravel-records-filter"
-              ></Image>
-
-              <figcaption>
-                <p>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                  laravel records filter
+                </h3>
+                <Image
+                  width={372}
+                  height={192}
+                  src={lrf.src}
+                  alt="laravel-records-filter"
+                ></Image>
+              </div>
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
                   laravle package for filtering and sorting records in laravel
                   applications.
                 </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/laravel-records-filter"
                     target={"_blank"}
@@ -83,6 +94,7 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="https://packagist.org/packages/musta20/laravel-records-filter"
                   target={"_blank"}
@@ -97,23 +109,28 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>matajer</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={smt.src}
-                alt="laravel-records-filter"
-              ></Image>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                  matajer
+                </h3>
 
-              <figcaption>
-                <p>
+                <Image
+                  width={372}
+                  height={192}
+                  src={smt.src}
+                  alt="laravel-records-filter"
+                ></Image>
+              </div>
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
                   matajer is eCommerce platform for create small business online
                   store.
                 </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/smt"
                     target={"_blank"}
@@ -123,14 +140,23 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="https://9802131.xyz/"
                   target={"_blank"}
                 >
                   9802131.xyz/
                 </a>
-                <p className="bold" >Login Credentials:</p>
-                <p>login url : <a href="https://musta.9802131.xyz/login">https://musta.9802131.xyz/login</a></p>
+                <p className="font-bold my-2">Login Credentials:</p>
+                <p>
+                  login url :{" "}
+                  <a
+                    className="text-[#29a9d4] font-bold"
+                    href="https://musta.9802131.xyz/login"
+                  >
+                    https://musta.9802131.xyz/login
+                  </a>
+                </p>
                 <p>username : musta@musta.com</p>
                 <p>password : 1234</p>
               </figcaption>
@@ -141,20 +167,27 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>mybnb</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={mybnb.src}
-                alt="mybnb"
-              ></Image>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                  mybnb
+                </h3>
 
-              <figcaption>
-                <p>mybnb is a booking platform similar to airbnb.</p>
+                <Image
+                  width={372}
+                  height={192}
+                  src={mybnb.src}
+                  alt="mybnb"
+                ></Image>
+              </div>
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
+                  mybnb is a booking platform similar to airbnb.
+                </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/mybnb"
                     target={"_blank"}
@@ -164,13 +197,14 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="http://mybnb.testgit.xyz/"
                   target={"_blank"}
                 >
                   mybnb.testgit.xyz
                 </a>
-                <p className="bold">Login Credentials:</p>
+                <p className="font-bold my-2">Login Credentials:</p>
                 <p>Username: admin@admin.com</p>
                 <p>Password: password</p>
               </figcaption>
@@ -181,20 +215,26 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>assets mangment system</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={asset.src}
-                alt="mybnb"
-              ></Image>
-
-              <figcaption>
-                <p>Assets mangment system build using filamentphp.</p>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                  assets mangment system
+                </h3>
+                <Image
+                  width={372}
+                  height={192}
+                  src={asset.src}
+                  alt="mybnb"
+                ></Image>
+              </div>
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
+                  Assets mangment system build using filamentphp.
+                </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/assets_management_laravel"
                     target={"_blank"}
@@ -204,14 +244,23 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="http://asset.testgit.xyz/"
                   target={"_blank"}
                 >
                   asset.testgit.xyz
                 </a>
-                <p className="bold">Login Credentials:</p>
-                <p>login url : <a href="https://asset.testgit.xyz/login">https://asset.testgit.xyz/login</a></p>
+                <p className="font-bold my-2">Login Credentials:</p>
+                <p>
+                  login url :{" "}
+                  <a
+                    className="text-[#29a9d4] font-bold"
+                    href="https://asset.testgit.xyz/login"
+                  >
+                    https://asset.testgit.xyz/login
+                  </a>
+                </p>
                 <p>Username: admin@admin.com</p>
                 <p>Password: admin</p>
               </figcaption>
@@ -222,20 +271,25 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure id="mywork">
-            <h3>cms</h3>
-            <div>
-              <Image
-                width={372}
-                height={192}
-                src={base.src}
-                alt="mybnb"
-              ></Image>
+          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#136a86]">cms</h3>
 
-              <figcaption>
-                <p>baceproject is cms based on laravel.</p>
+                <Image
+                  width={372}
+                  height={192}
+                  src={base.src}
+                  alt="mybnb"
+                ></Image>
+              </div>
+              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
+                  baceproject is cms based on laravel.
+                </p>
                 <p>
                   <a
+                    className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/baseProject"
                     target={"_blank"}
@@ -245,17 +299,24 @@ export default function MyWork() {
                 </p>
 
                 <a
+                  className="text-[#29a9d4] font-bold"
                   rel="noreferrer"
                   href="http://baseproject.testgit.xyz/"
                   target={"_blank"}
                 >
                   baseproject.testgit.xyz
                 </a>
-                <p className="bold">Login Credentials:</p>
-                <p>login url : <a href="https://baseproject.testgit.xyz/login">https://baseproject.testgit.xyz/login</a></p>
-                <p>Username: admin@admin.com
-
-</p>
+                <p className="font-bold my-2">Login Credentials:</p>
+                <p>
+                  login url :{" "}
+                  <a
+                    className="text-[#29a9d4] font-bold"
+                    href="https://baseproject.testgit.xyz/login"
+                  >
+                    https://baseproject.testgit.xyz/login
+                  </a>
+                </p>
+                <p>Username: admin@admin.com</p>
                 <p>Password: admin</p>
               </figcaption>
             </div>

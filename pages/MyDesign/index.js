@@ -16,24 +16,24 @@ export default function MyWork() {
 
   return (
     <Layout title={"Mustafa Osman : My Work"}>
-      <div className="grid  ">
+      <div className="grid p-16 gap-12 mx-auto w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a rel="noreferrer" href="https://9802131.xyz/" target={"_blank"}>
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={smt.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -41,18 +41,18 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={mybnb.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -60,18 +60,18 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={base.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -79,18 +79,18 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={sadana.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -98,18 +98,18 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={itc.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -117,18 +117,18 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={letter.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
 
         {isShown && (
-          <FadeInSection>
+          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -136,14 +136,14 @@ export default function MyWork() {
                 target={"_blank"}
               >
                 <Image
-                  width={500}
-                  height={250}
+                  width={600}
+                  height={350}
                   src={tech.src}
                   alt="mediaspu-cli"
                 ></Image>
               </a>
             </figure>
-          </FadeInSection>
+          </div>
         )}
       </div>
     </Layout>
