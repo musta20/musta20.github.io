@@ -32,7 +32,7 @@ export default function MyWork() {
                 ></Image>
               </div>
 
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   JavaScript cli tool for monitoring mediasoup server
                   applications.
@@ -77,7 +77,7 @@ export default function MyWork() {
                   alt="laravel-records-filter"
                 ></Image>
               </div>
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   laravle package for filtering and sorting records in laravel
                   applications.
@@ -123,7 +123,7 @@ export default function MyWork() {
                   alt="laravel-records-filter"
                 ></Image>
               </div>
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   matajer is eCommerce platform for create small business online
                   store.
@@ -181,7 +181,7 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   mybnb is a booking platform similar to airbnb.
                 </p>
@@ -215,7 +215,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+      <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
             <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#136a86]">
@@ -228,18 +228,19 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className="  border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   Assets mangment system build using filamentphp.
                 </p>
-                <p>
+                <p className="text-center">
                   <a
                     className="text-[#29a9d4] font-bold"
                     rel="noreferrer"
                     href="https://github.com/musta20/assets_management_laravel"
                     target={"_blank"}
                   >
-                    github.com/musta20/assets_management_laravel
+                    github.com/musta20/
+                    assets_management_laravel
                   </a>
                 </p>
 
@@ -283,7 +284,7 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className=" border-1 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   baceproject is cms based on laravel.
                 </p>

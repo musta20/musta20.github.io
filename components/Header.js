@@ -6,7 +6,7 @@ import { PiPaintBrush } from "react-icons/pi";
 import Link from "next/link";
 export default function Header() {
   return (
-    <header className="flex p-5 align-center justify-between ">
+    <header className="flex p-5 align-center gap-3 justify-between ">
       <Link href="/">
         <a
           rel="noreferrer"
@@ -17,7 +17,7 @@ export default function Header() {
         </a>
       </Link>
 
-      <nav className="flex gap-10 text-md  text-[#29a9d4]">
+      <nav className="flex md:gap-10 gap-3 text-md  text-[#29a9d4]">
         <Link href="/MyWork">
           <div className="flex place-items-center cursor-pointer hover:text-[#00526d]  flex-col ">
             <BiBuildingHouse size={25} title="MyWork"></BiBuildingHouse>
