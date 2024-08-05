@@ -10,7 +10,7 @@ return <>
       <title>{props.title}</title>
 </Head>
 <Header></Header>
-      <div className="  px-2 bg-backGroudColor">
+      <div className="  px-2 ">
 
 {props.children}
 </div>

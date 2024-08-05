@@ -17,10 +17,10 @@ export default function MyWork() {
     <Layout title={"Mustafa Osman : My Work"}>
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
             <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
                   Mediasoup-cli
                 </h3>
 
@@ -33,14 +33,14 @@ export default function MyWork() {
               </div>
 
               <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
-                <p className="text-lg text-[#136a86] py-1">
+                <p className="text-lg text-[#186F65] py-1">
                   JavaScript cli tool for monitoring mediasoup server
                   applications.
                 </p>
                 <p>
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/mediasoup-cli"
                     target={"_blank"}
                   >
@@ -49,7 +49,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://www.npmjs.com/package/mediasoup-cli"
                   target={"_blank"}
@@ -64,10 +64,10 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
-            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
                   laravel records filter
                 </h3>
                 <Image
@@ -78,14 +78,14 @@ export default function MyWork() {
                 ></Image>
               </div>
               <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
-                <p className="text-lg text-[#136a86] py-1">
+                <p className="text-lg text-[#186F65] py-1 ">
                   laravle package for filtering and sorting records in laravel
                   applications.
                 </p>
                 <p>
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/laravel-records-filter"
                     target={"_blank"}
                   >
@@ -94,7 +94,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://packagist.org/packages/musta20/laravel-records-filter"
                   target={"_blank"}
@@ -109,10 +109,10 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
-            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
                   matajer
                 </h3>
 
@@ -130,8 +130,8 @@ export default function MyWork() {
                 </p>
                 <p>
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/smt"
                     target={"_blank"}
                   >
@@ -140,7 +140,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://9802131.xyz/"
                   target={"_blank"}
@@ -151,8 +151,8 @@ export default function MyWork() {
                 <p>
                   login url :{" "}
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    href="https://musta.9802131.xyz/login"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  href="https://musta.9802131.xyz/login"
                   >
                     https://musta.9802131.xyz/login
                   </a>
@@ -167,10 +167,10 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
-            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
                   mybnb
                 </h3>
 
@@ -187,8 +187,8 @@ export default function MyWork() {
                 </p>
                 <p>
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/mybnb"
                     target={"_blank"}
                   >
@@ -197,7 +197,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://mybnb.testgit.xyz/"
                   target={"_blank"}
@@ -215,10 +215,10 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-      <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
-            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
                   assets mangment system
                 </h3>
                 <Image
@@ -234,8 +234,8 @@ export default function MyWork() {
                 </p>
                 <p className="text-center">
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/assets_management_laravel"
                     target={"_blank"}
                   >
@@ -245,7 +245,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://asset.testgit.xyz/"
                   target={"_blank"}
@@ -256,8 +256,8 @@ export default function MyWork() {
                 <p>
                   login url :{" "}
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    href="https://asset.testgit.xyz/login"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  href="https://asset.testgit.xyz/login"
                   >
                     https://asset.testgit.xyz/login
                   </a>
@@ -272,10 +272,10 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#29a9d4]   mx-auto w-4/6 bg-[#e7f8fd]  rounded-md shadow-sm">
-            <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
-                <h3 className="text-3xl font-bold p-1  text-[#136a86]">cms</h3>
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">cms</h3>
 
                 <Image
                   width={372}
@@ -290,8 +290,8 @@ export default function MyWork() {
                 </p>
                 <p>
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    rel="noreferrer"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
                     href="https://github.com/musta20/baseProject"
                     target={"_blank"}
                   >
@@ -300,7 +300,7 @@ export default function MyWork() {
                 </p>
 
                 <a
-                  className="text-[#29a9d4] font-bold"
+                  className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://baseproject.testgit.xyz/"
                   target={"_blank"}
@@ -311,8 +311,8 @@ export default function MyWork() {
                 <p>
                   login url :{" "}
                   <a
-                    className="text-[#29a9d4] font-bold"
-                    href="https://baseproject.testgit.xyz/login"
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  href="https://baseproject.testgit.xyz/login"
                   >
                     https://baseproject.testgit.xyz/login
                   </a>

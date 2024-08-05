@@ -18,7 +18,7 @@ export default function MyWork() {
     <Layout title={"Mustafa Osman : My Work"}>
       <div className="grid p-16 gap-12 mx-auto w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a rel="noreferrer" href="https://9802131.xyz/" target={"_blank"}>
                 <Image
@@ -33,7 +33,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -52,7 +52,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -71,7 +71,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -90,7 +90,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -109,7 +109,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
@@ -128,7 +128,7 @@ export default function MyWork() {
         )}
 
         {isShown && (
-          <div className="border border-[#29a9d4] hover:shadow-xl hover:scale-105 hover:shadow-[#29a9d4] duration-200  rounded-md">
+          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
             <figure id="mywork" className="design">
               <a
                 rel="noreferrer"
