@@ -11,22 +11,23 @@ import { useState } from "react";
 import Layout from "../../components/Layout";
 import Image from "next/image";
 
-export default function MyWork() {
+export default function MyDesign() {
   const [isShown, setIsShown] = useState(true);
 
   return (
-    <Layout title={"Mustafa Osman : My Work"}>
+    <Layout title={"Mustafa Osman : My Design"}>
       <div className="grid p-16 gap-12 mx-auto w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {isShown && (
-          <div className="border border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200  rounded-md">
-            <figure id="mywork" className="design">
-              <a rel="noreferrer" href="https://9802131.xyz/" target={"_blank"}>
-                <Image
+          <div className="border p-0 border-[#186F65] hover:shadow-lg hover:scale-105 hover:shadow-[#5e7964] duration-200 rounded-md">
+            <figure id="mywork" className="design p-0">
+              <a rel="noreferrer"  href="https://9802131.xyz/" target={"_blank"}>
+                <img
                   width={600}
                   height={350}
                   src={smt.src}
+                  className="rounded-md"
                   alt="mediaspu-cli"
-                ></Image>
+                />
               </a>
             </figure>
           </div>
@@ -40,12 +41,14 @@ export default function MyWork() {
                 href="http://mybnb.testgit.xyz/"
                 target={"_blank"}
               >
-                <Image
+                <img
                   width={600}
                   height={350}
                   src={mybnb.src}
+                  className="rounded-md"
+
                   alt="mediaspu-cli"
-                ></Image>
+                />
               </a>
             </figure>
           </div>
@@ -78,12 +81,12 @@ export default function MyWork() {
                 href="https://testgit.xyz/sadana/"
                 target={"_blank"}
               >
-                <Image
+                <img
                   width={600}
                   height={350}
                   src={sadana.src}
                   alt="mediaspu-cli"
-                ></Image>
+                />
               </a>
             </figure>
           </div>
@@ -97,12 +100,14 @@ export default function MyWork() {
                 href="https://testgit.xyz/itc/"
                 target={"_blank"}
               >
-                <Image
+                <img
                   width={600}
                   height={350}
                   src={itc.src}
+                  className="rounded-md"
+
                   alt="mediaspu-cli"
-                ></Image>
+                />
               </a>
             </figure>
           </div>
@@ -116,12 +121,14 @@ export default function MyWork() {
                 href="https://testgit.xyz/letter/"
                 target={"_blank"}
               >
-                <Image
+                <img
                   width={600}
                   height={350}
                   src={letter.src}
                   alt="mediaspu-cli"
-                ></Image>
+                  className="rounded-md"
+
+                />
               </a>
             </figure>
           </div>
@@ -135,12 +142,14 @@ export default function MyWork() {
                 href="https://testgit.xyz/tech/"
                 target={"_blank"}
               >
-                <Image
+                <img
                   width={600}
                   height={350}
                   src={tech.src}
+                  className="rounded-md"
+
                   alt="mediaspu-cli"
-                ></Image>
+                />
               </a>
             </figure>
           </div>
