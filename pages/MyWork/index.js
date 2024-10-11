@@ -5,6 +5,8 @@ import lrf from "../../assets/imgs/laravel-record-filter.png";
 import mybnb from "../../assets/imgs/mybnb.png";
 import asset from "../../assets/imgs/asset.png";
 import base from "../../assets/imgs/baseproject.png";
+import wemet from "../../assets/imgs/wemet-des.png";
+import nearme from "../../assets/imgs/nearme-des.png";
 
 import { useState } from "react";
 import Layout from "../../components/Layout";
@@ -106,6 +108,112 @@ export default function MyWork() {
           </figure>
         </FadeInSection>
       )}
+
+{isShown && (
+        <FadeInSection>
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
+                  wemet.live
+                </h3>
+
+                <Image
+                  width={372}
+                  height={192}
+                  src={wemet.src}
+                  alt="wemet.live"
+                ></Image>
+              </div>
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
+                Wemet is online video chat using mediasoup for random users.
+                </p>
+                <p>
+                  <a
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
+                    href="https://github.com/musta20/wemetServer"
+                    target={"_blank"}
+                  >
+                    https://github.com/musta20/wemetServer
+                  </a>
+                </p>
+
+                <a
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
+                  href="https://wemet.live/"
+                  target={"_blank"}
+                >
+                  https://wemet.live
+                </a>
+                
+              </figcaption>
+            </div>
+          </figure>
+        </FadeInSection>
+      )}
+
+
+{isShown && (
+        <FadeInSection>
+          <figure className="p-12  m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <div className="flex flex-col lg:flex-row gap-5 place-items-center">
+              <div>
+                <h3 className="text-3xl font-bold p-1  text-[#186F65]">
+                  NearMe
+                </h3>
+
+                <Image
+                  width={372}
+                  height={192}
+                  src={nearme.src}
+                  alt="laravel-records-filter"
+                ></Image>
+              </div>
+              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+                <p className="text-lg text-[#136a86] py-1">
+                A web app to find a specific product close to you. using maps its search your area. this is still in development.
+                
+                </p>
+                <p>
+                  <a
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
+                    href="https://github.com/musta20/NearMe"
+                    target={"_blank"}
+                  >
+                   github.com/musta20/NearMe
+                  </a>
+                </p>
+
+                <a
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  rel="noreferrer"
+                  href="https://9802131.xyz/"
+                  target={"_blank"}
+                >
+                  nearme.testgit.xyz
+                </a>
+                <p className="font-bold my-2">Login Credentials:</p>
+                <p>
+                  login url :{" "}
+                  <a
+                  className="text-[#50d8c8] font-bold hover:underline"
+                  href="https://nearme.testgit.xyz/login"
+                  >
+                    https://nearme.testgit.xyz/login
+                  </a>
+                </p>
+                <p>username : admin@admin</p>
+                <p>password : Aa123456</p>
+              </figcaption>
+            </div>
+          </figure>
+        </FadeInSection>
+      )}
+
 
       {isShown && (
         <FadeInSection>
