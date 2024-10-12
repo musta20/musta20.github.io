@@ -364,10 +364,12 @@ export default function MyWork() {
                 <p>
                   login url :{" "}
                   <a
+                                    target={"_blank"}
+
                   className="text-[#50d8c8] font-bold hover:underline"
-                  href="https://asset.testgit.xyz/login"
+                  href="https://asset.testgit.xyz/admin/login"
                   >
-                    https://asset.testgit.xyz/login
+                    https://asset.testgit.xyz/admin/login
                   </a>
                 </p>
                 <p>Username: admin@admin.com</p>
