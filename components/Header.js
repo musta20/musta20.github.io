@@ -1,6 +1,5 @@
 import { FaGithubAlt } from "react-icons/fa";
 import { BiBuildingHouse } from "react-icons/bi";
-import { BiPurchaseTag } from "react-icons/bi";
 import { PiPaintBrush } from "react-icons/pi";
 
 import Link from "next/link";

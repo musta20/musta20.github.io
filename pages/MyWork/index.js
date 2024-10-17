@@ -19,7 +19,7 @@ export default function MyWork() {
     <Layout title={"Mustafa Osman : My Work"}>
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
             <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -34,7 +34,7 @@ export default function MyWork() {
                 ></Image>
               </div>
 
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#186F65] py-1">
                   JavaScript cli tool for monitoring mediasoup server
                   applications.
@@ -66,7 +66,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -79,7 +79,7 @@ export default function MyWork() {
                   alt="laravel-records-filter"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#186F65] py-1 ">
                   laravle package for filtering and sorting records in laravel
                   applications.
@@ -111,7 +111,7 @@ export default function MyWork() {
 
 {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -125,7 +125,7 @@ export default function MyWork() {
                   alt="wemet.live"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                 Wemet is online video chat using mediasoup for random users.
                 </p>
@@ -158,7 +158,7 @@ export default function MyWork() {
 
 {isShown && (
         <FadeInSection>
-          <figure className="p-12  m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12  m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -172,7 +172,7 @@ export default function MyWork() {
                   alt="laravel-records-filter"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                 A web app to find a specific product close to you. using maps its search your area. this is still in development.
                 
@@ -217,7 +217,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -231,7 +231,7 @@ export default function MyWork() {
                   alt="laravel-records-filter"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   matajer is eCommerce platform for create small business online
                   store.
@@ -275,7 +275,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -289,7 +289,7 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   mybnb is a booking platform similar to airbnb.
                 </p>
@@ -323,7 +323,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">
@@ -336,7 +336,7 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className="  border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className="  border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   Assets mangment system build using filamentphp.
                 </p>
@@ -382,7 +382,7 @@ export default function MyWork() {
 
       {isShown && (
         <FadeInSection>
-          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]  rounded-md shadow-sm hover:shadow-md transition">
+          <figure className="p-12 m-12 border-[#186F65]   mx-auto w-4/6 bg-[#eff1f0]    rounded-mdd shadow-sm hover:shadow-md transition">
           <div className="flex flex-col lg:flex-row gap-5 place-items-center">
               <div>
                 <h3 className="text-3xl font-bold p-1  text-[#186F65]">cms</h3>
@@ -394,7 +394,7 @@ export default function MyWork() {
                   alt="mybnb"
                 ></Image>
               </div>
-              <figcaption className=" border-2 bg-gray-50 rounded-md p-6">
+              <figcaption className=" border-2 bg-gray-50   rounded-mdd p-6">
                 <p className="text-lg text-[#136a86] py-1">
                   baceproject is cms based on laravel.
                 </p>
