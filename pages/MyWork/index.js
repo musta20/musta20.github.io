@@ -40,24 +40,24 @@ export default function MyWork() {
                   applications.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/mediasoup-cli"
                     target={"_blank"}
                   >
                     github.com/musta20/mediasoup-cli
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://www.npmjs.com/package/mediasoup-cli"
                   target={"_blank"}
                 >
                   npmjs.com/package/mediasoup-cli
-                </a>
+                </Link>
               </figcaption>
             </div>
           </figure>
@@ -85,24 +85,24 @@ export default function MyWork() {
                   applications.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/laravel-records-filter"
                     target={"_blank"}
                   >
                     github.com/musta20/laravel-records-filter
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://packagist.org/packages/musta20/laravel-records-filter"
                   target={"_blank"}
                 >
                   packagist.org/packages/musta20/laravel-records-filter
-                </a>
+                </Link>
               </figcaption>
             </div>
           </figure>
@@ -130,24 +130,24 @@ export default function MyWork() {
                 Wemet is online video chat using mediasoup for random users.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/wemetServer"
                     target={"_blank"}
                   >
                     https://github.com/musta20/wemetServer
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://wemet.live/"
                   target={"_blank"}
                 >
                   https://wemet.live
-                </a>
+                </Link>
                 
               </figcaption>
             </div>
@@ -178,33 +178,33 @@ export default function MyWork() {
                 
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/NearMe"
                     target={"_blank"}
                   >
                    github.com/musta20/NearMe
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://9802131.xyz/"
                   target={"_blank"}
                 >
                   nearme.testgit.xyz
-                </a>
+                </Link>
                 <p className="font-bold my-2">Login Credentials:</p>
                 <p>
                   login url :{" "}
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   href="https://nearme.testgit.xyz/login"
                   >
                     https://nearme.testgit.xyz/login
-                  </a>
+                  </Link>
                 </p>
                 <p>username : admin@admin</p>
                 <p>password : Aa123456</p>
@@ -237,33 +237,33 @@ export default function MyWork() {
                   store.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/smt"
                     target={"_blank"}
                   >
                     github.com/musta20/smt
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="https://9802131.xyz/"
                   target={"_blank"}
                 >
                   9802131.xyz/
-                </a>
+                </Link>
                 <p className="font-bold my-2">Login Credentials:</p>
                 <p>
                   login url :{" "}
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   href="https://musta.9802131.xyz/login"
                   >
                     https://musta.9802131.xyz/login
-                  </a>
+                  </Link>
                 </p>
                 <p>username : musta@musta.com</p>
                 <p>password : 1234</p>
@@ -294,24 +294,24 @@ export default function MyWork() {
                   mybnb is a booking platform similar to airbnb.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/mybnb"
                     target={"_blank"}
                   >
                     github.com/musta20/mybnb
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://mybnb.testgit.xyz/"
                   target={"_blank"}
                 >
                   mybnb.testgit.xyz
-                </a>
+                </Link>
                 <p className="font-bold my-2">Login Credentials:</p>
                 <p>Username: admin@admin.com</p>
                 <p>Password: password</p>
@@ -341,7 +341,7 @@ export default function MyWork() {
                   Assets mangment system build using filamentphp.
                 </p>
                 <p className="text-center">
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/assets_management_laravel"
@@ -349,28 +349,28 @@ export default function MyWork() {
                   >
                     github.com/musta20/
                     assets_management_laravel
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://asset.testgit.xyz/"
                   target={"_blank"}
                 >
                   asset.testgit.xyz
-                </a>
+                </Link>
                 <p className="font-bold my-2">Login Credentials:</p>
                 <p>
                   login url :{" "}
-                  <a
+                  <Link lagacyBehavior
                                     target={"_blank"}
 
                   className="text-[#50d8c8] font-bold hover:underline"
                   href="https://asset.testgit.xyz/admin/login"
                   >
                     https://asset.testgit.xyz/admin/login
-                  </a>
+                  </Link>
                 </p>
                 <p>Username: admin@admin.com</p>
                 <p>Password: admin</p>
@@ -399,33 +399,33 @@ export default function MyWork() {
                   baceproject is cms based on laravel.
                 </p>
                 <p>
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                     href="https://github.com/musta20/baseProject"
                     target={"_blank"}
                   >
                     github.com/musta20/baseProject
-                  </a>
+                  </Link>
                 </p>
 
-                <a
+                <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   rel="noreferrer"
                   href="http://baseproject.testgit.xyz/"
                   target={"_blank"}
                 >
                   baseproject.testgit.xyz
-                </a>
+                </Link>
                 <p className="font-bold my-2">Login Credentials:</p>
                 <p>
                   login url :{" "}
-                  <a
+                  <Link lagacyBehavior
                   className="text-[#50d8c8] font-bold hover:underline"
                   href="https://baseproject.testgit.xyz/login"
                   >
                     https://baseproject.testgit.xyz/login
-                  </a>
+                  </Link>
                 </p>
                 <p>Username: admin@admin.com</p>
                 <p>Password: admin</p>

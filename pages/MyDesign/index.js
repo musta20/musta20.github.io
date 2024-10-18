@@ -16,6 +16,8 @@ import sadanasmall from "../../assets/imgs/small/sadana-des.png";
 import { useState } from "react";
 import Layout from "../../components/Layout";
 import BlurryLoadingImage from "../../components/BlurryLoadingImage";
+import Image from "next/image";
+import Link from "next/link";
  
 export default function MyDesign() {
   const [isShown, setIsShown] = useState(true);
@@ -26,13 +28,13 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design p-0">
-              <a rel="noreferrer"  href="https://9802131.xyz/" target={"_blank"}>
+              <Link lagacyBehavior rel="noreferrer"  href="https://9802131.xyz/" target={"_blank"}>
                 <BlurryLoadingImage
                   preview={smtsmall.src}
                   image={smt.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
@@ -40,17 +42,24 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+              <Link lagacyBehavior
                 rel="noreferrer"
                 href="http://mybnb.testgit.xyz/"
                 target={"_blank"}
               >
-                <BlurryLoadingImage
+                <Image
+                  src={mybnb.src}
+                  alt="mediaspu-cli"
+                   width={600}
+                   height={350}
+
+                />
+                {/* <BlurryLoadingImage
                   preview={mybnbsmall.src}
                   image={mybnb.src}
                    alt="mediaspu-cli"
-                />
-              </a>
+                /> */}
+              </Link>
             </figure>
           </div>
         )}
@@ -58,7 +67,7 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+            <Link lagacyBehavior
                 rel="noreferrer"
                 href="http://baseproject.testgit.xyz/"
                 target={"_blank"}
@@ -68,7 +77,7 @@ export default function MyDesign() {
                   image={base.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
@@ -76,7 +85,7 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+              <Link lagacyBehavior
                 rel="noreferrer"
                 href="https://testgit.xyz/sadana/"
                 target={"_blank"}
@@ -86,7 +95,7 @@ export default function MyDesign() {
                   image={sadana.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
@@ -94,7 +103,7 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+              <Link lagacyBehavior
                 rel="noreferrer"
                 href="https://testgit.xyz/itc/"
                 target={"_blank"}
@@ -104,7 +113,7 @@ export default function MyDesign() {
                   image={itc.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
@@ -112,7 +121,7 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+              <Link lagacyBehavior
                 rel="noreferrer"
                 href="https://testgit.xyz/letter/"
                 target={"_blank"}
@@ -122,7 +131,7 @@ export default function MyDesign() {
                   image={letter.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
@@ -130,7 +139,7 @@ export default function MyDesign() {
         {isShown && (
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design">
-              <a
+              <Link lagacyBehavior
                 rel="noreferrer"
                 href="https://testgit.xyz/tech/"
                 target={"_blank"}
@@ -140,7 +149,7 @@ export default function MyDesign() {
                   image={tech.src}
                    alt="mediaspu-cli"
                 />
-              </a>
+              </Link>
             </figure>
           </div>
         )}
