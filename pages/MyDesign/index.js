@@ -29,11 +29,22 @@ export default function MyDesign() {
           <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
             <figure id="mywork" className="design p-0">
               <Link lagacyBehavior rel="noreferrer"  href="https://9802131.xyz/" target={"_blank"}>
-                <BlurryLoadingImage
+              <Image
+                  src={smt.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={smtsmall.src}
+                   width={600}
+                   height={350}
+
+                />
+                {/* <BlurryLoadingImage
                   preview={smtsmall.src}
                   image={smt.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
@@ -76,11 +87,23 @@ export default function MyDesign() {
                 href="http://baseproject.testgit.xyz/"
                 target={"_blank"}
               >
-            <BlurryLoadingImage
+
+                    <Image
+                  src={base.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={basesmall.src}
+                   width={600}
+                   height={350}
+
+                />
+            {/* <BlurryLoadingImage
                   preview={basesmall.src}
                   image={base.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
@@ -94,11 +117,23 @@ export default function MyDesign() {
                 href="https://testgit.xyz/sadana/"
                 target={"_blank"}
               >
-                    <BlurryLoadingImage
+
+            <Image
+                  src={sadana.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={sadanasmall.src}
+                   width={600}
+                   height={350}
+
+                />
+                    {/* <BlurryLoadingImage
                   preview={sadanasmall.src}
                   image={sadana.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
@@ -112,11 +147,24 @@ export default function MyDesign() {
                 href="https://testgit.xyz/itc/"
                 target={"_blank"}
               >
-                 <BlurryLoadingImage
+
+
+            <Image
+                  src={itc.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={itcsmall.src}
+                   width={600}
+                   height={350}
+
+                />
+                 {/* <BlurryLoadingImage
                   preview={itcsmall.src}
                   image={itc.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
@@ -130,11 +178,24 @@ export default function MyDesign() {
                 href="https://testgit.xyz/letter/"
                 target={"_blank"}
               >
-                 <BlurryLoadingImage
+
+
+            <Image
+                  src={letter.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={lettersmall.src}
+                   width={600}
+                   height={350}
+
+                />
+                 {/* <BlurryLoadingImage
                   preview={lettersmall.src}
                   image={letter.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
@@ -148,11 +209,24 @@ export default function MyDesign() {
                 href="https://testgit.xyz/tech/"
                 target={"_blank"}
               >
-                <BlurryLoadingImage
+         <Image
+                  src={tech.src}
+                  alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={techsmall.src}
+                   width={600}
+                   height={350}
+
+                />
+            
+                
+                {/* <BlurryLoadingImage
                   preview={techsmall.src}
                   image={tech.src}
                    alt="mediaspu-cli"
-                />
+                /> */}
               </Link>
             </figure>
           </div>
