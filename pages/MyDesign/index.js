@@ -3,7 +3,7 @@ import lettersmall from "../../assets/imgs/small/letter-des.png";
 import smt from "../../assets/imgs/smt-des.png";
 import smtsmall from "../../assets/imgs/small/smt-des-small.png";
 import mybnb from "../../assets/imgs/mybnb-des.png";
-import mybnbsmall from "../../assets/imgs/small//mybnb-des.png";
+import mybnbsmall from "../../assets/imgs/small/mybnb-des.png";
 import base from "../../assets/imgs/base-des.png";
 import basesmall from "../../assets/imgs/small/base-des.png";
 import itc from "../../assets/imgs/itc-des.png";
@@ -50,6 +50,10 @@ export default function MyDesign() {
                 <Image
                   src={mybnb.src}
                   alt="mediaspu-cli"
+                  placeholder="blur"
+
+                  
+                  blurDataURL={mybnbsmall.src}
                    width={600}
                    height={350}
 
