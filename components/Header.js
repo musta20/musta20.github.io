@@ -17,6 +17,7 @@ export default function Header() {
            duration-300
           
            transition-all
+           cursor-pointer
           
           delay-300 
           

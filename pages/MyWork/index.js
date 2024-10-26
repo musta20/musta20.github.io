@@ -1,12 +1,12 @@
 import FadeInSection from "../../components/FadeInSection";
 import mediasoup from "../../assets/imgs/mediasoup-cli.png";
-import smt from "../../assets/imgs/smt.png";
+import smt from "../../assets/imgs/smt-main.png";
 import lrf from "../../assets/imgs/laravel-record-filter.png";
-import mybnb from "../../assets/imgs/mybnb.png";
-import asset from "../../assets/imgs/asset.png";
-import base from "../../assets/imgs/baseproject.png";
-import wemet from "../../assets/imgs/wemet-des.png";
-import nearme from "../../assets/imgs/nearme-des.png";
+import mybnb from "../../assets/imgs/mybnb-main.png";
+import asset from "../../assets/imgs/asset-main.png";
+import base from "../../assets/imgs/base-main.png";
+import wemet from "../../assets/imgs/wemet-main.png";
+import nearme from "../../assets/imgs/nearme-main.png";
 
 import { useState } from "react";
 import Layout from "../../components/Layout";

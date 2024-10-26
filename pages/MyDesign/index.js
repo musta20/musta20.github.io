@@ -1,19 +1,26 @@
-import letter from "../../assets/imgs/letter-des.png";
+import letter from "../../assets/imgs/letter-main.png";
 import lettersmall from "../../assets/imgs/small/letter-des.png";
-import smt from "../../assets/imgs/smt-des.png";
+import smt from "../../assets/imgs/smt-main.png";
 import smtsmall from "../../assets/imgs/small/smt-des-small.png";
-import mybnb from "../../assets/imgs/mybnb-des.png";
+import mybnb from "../../assets/imgs/mybnb-main.png";
 import mybnbsmall from "../../assets/imgs/small/mybnb-des.png";
-import base from "../../assets/imgs/base-des.png";
+import base from "../../assets/imgs/base-main.png";
 import basesmall from "../../assets/imgs/small/base-des.png";
-import itc from "../../assets/imgs/itc-des.png";
+import itc from "../../assets/imgs/itc-main.png";
 import itcsmall from "../../assets/imgs/small/itc-des.png";
-import tech from "../../assets/imgs/tech-des.png";
+import tech from "../../assets/imgs/tech-main.png";
 import techsmall from "../../assets/imgs/small/tech-des.png";
-import sadana from "../../assets/imgs/sadana-des.png";
+import sadana from "../../assets/imgs/sadana-main.png";
 import sadanasmall from "../../assets/imgs/small/sadana-des.png";
- 
-import { useState } from "react";
+
+import kadamate from "../../assets/imgs/kadamatee/kadamate.png";
+import landingPage from "../../assets/imgs/kadamatee/landing page.png";
+import mobileGame from "../../assets/imgs/kadamatee/mobile game.png";
+
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+import 'photoswipe/style.css';
+import { useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import BlurryLoadingImage from "../../components/BlurryLoadingImage";
 import Image from "next/image";
@@ -21,6 +28,21 @@ import Link from "next/link";
  
 export default function MyDesign() {
   const [isShown, setIsShown] = useState(true);
+  const images = [kadamate,landingPage,mobileGame];
+
+  useEffect(() => {
+    let lightbox = new PhotoSwipeLightbox({
+      gallery: '#' + "imageGullare",
+      children: 'a',
+      pswpModule: () => import('photoswipe'),
+    });
+    lightbox.init();
+
+    return () => {
+      lightbox.destroy();
+      lightbox = null;
+    };
+  }, []);
 
   return (
     <Layout title={"Mustafa Osman : My Design"}>
@@ -62,18 +84,11 @@ export default function MyDesign() {
                   src={mybnb.src}
                   alt="mediaspu-cli"
                   placeholder="blur"
-
-                  
                   blurDataURL={mybnbsmall.src}
                    width={600}
                    height={350}
 
                 />
-                {/* <BlurryLoadingImage
-                  preview={mybnbsmall.src}
-                  image={mybnb.src}
-                   alt="mediaspu-cli"
-                /> */}
               </Link>
             </figure>
           </div>
@@ -171,34 +186,21 @@ export default function MyDesign() {
         )}
 
         {isShown && (
-          <div className="border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200  ">
-            <figure id="mywork" className="design">
-              <Link lagacyBehavior
-                rel="noreferrer"
-                href="https://testgit.xyz/letter/"
-                target={"_blank"}
-              >
-
-
-            <Image
-                  src={letter.src}
-                  alt="mediaspu-cli"
-                  placeholder="blur"
-
-                  
-                  blurDataURL={lettersmall.src}
-                   width={600}
-                   height={350}
-
-                />
-                 {/* <BlurryLoadingImage
-                  preview={lettersmall.src}
-                  image={letter.src}
-                   alt="mediaspu-cli"
-                /> */}
-              </Link>
-            </figure>
-          </div>
+             <div className="pswp-gallery border  p-0   hover:shadow-lg hover:scale-110  hover:shadow-[#2b3d2f5d] duration-200" id="imageGullare">
+             { images.map((image, index) => (
+               <a
+               className={!index || 'hidden'}
+                 href={image.src}
+                 data-pswp-width={image.width}
+                 data-pswp-height={image.height}
+                 key={"imageGullare" + '-' + index}
+                 target="_blank"
+                 rel="noreferrer"
+               >
+                 <img src={image.src} alt="" />
+               </a>
+             ))}
+           </div>
         )}
 
         {isShown && (
@@ -209,7 +211,7 @@ export default function MyDesign() {
                 href="https://testgit.xyz/tech/"
                 target={"_blank"}
               >
-         <Image
+                 <Image
                   src={tech.src}
                   alt="mediaspu-cli"
                   placeholder="blur"
@@ -231,6 +233,12 @@ export default function MyDesign() {
             </figure>
           </div>
         )}
+
+
+
+
+
+ 
       </div>
     </Layout>
   );

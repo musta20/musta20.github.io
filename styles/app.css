@@ -11,3 +11,7 @@ body {
   background: #faf8f4;
   height: 100vh;
 }
+
+.hide {
+  display: none;
+}
