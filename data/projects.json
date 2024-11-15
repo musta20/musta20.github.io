@@ -1,0 +1,73 @@
+{
+  "designs": [
+    {
+      "title": "matajer",
+      "preview": "smt-des-small",
+      "image": "smt-main",
+      "url": "https://9802131.xyz/"
+    },
+    {
+      "title": "mybnb",
+      "preview": "mybnb-des",
+      "image": "mybnb-main",
+      "url": "http://mybnb.testgit.xyz/"
+    },
+    {
+      "title": "baseproject",
+      "preview": "base-des",
+      "image": "base-main",
+      "url": "http://baseproject.testgit.xyz/"
+    },
+    {
+      "title": "sadana",
+      "preview": "sadana-des", 
+      "image": "sadana-main",
+      "url": "https://testgit.xyz/sadana/"
+    },
+    {
+      "title": "itc",
+      "preview": "itc-des",
+      "image": "itc-main", 
+      "url": "https://testgit.xyz/itc/"
+    },
+    {
+      "title": "tech",
+      "preview": "tech-des",
+      "image": "tech-main",
+      "url": "https://testgit.xyz/tech/"
+    }
+    
+  ],
+  "work": [
+    {
+      "title": "Mediasoup-cli",
+      "description": "JavaScript cli tool for monitoring mediasoup server applications.",
+      "image": "mediasoup",
+      "links": [
+        {
+          "text": "github.com/musta20/mediasoup-cli",
+          "url": "https://github.com/musta20/mediasoup-cli"
+        },
+        {
+          "text": "npmjs.com/package/mediasoup-cli",
+          "url": "https://www.npmjs.com/package/mediasoup-cli"
+        }
+      ]
+    },
+    {
+      "title": "laravel records filter",
+      "description": "laravle package for filtering and sorting records in laravel applications.",
+      "image": "lrf",
+      "links": [
+        {
+          "text": "github.com/musta20/laravel-records-filter",
+          "url": "https://github.com/musta20/laravel-records-filter"
+        },
+        {
+          "text": "packagist.org/packages/musta20/laravel-records-filter",
+          "url": "https://packagist.org/packages/musta20/laravel-records-filter"
+        }
+      ]
+    }
+   ]
+} 

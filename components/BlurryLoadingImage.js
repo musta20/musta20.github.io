@@ -8,34 +8,50 @@ const BlurryLoadingImage = ({
   divStyleClass,
   bgColor = 'transparent',
 }) => {
-  const [currentImage, setCurrentImage] = useState(preview);
+  const [currentImage, setCurrentImage] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const fetchImage = (src) => {
-    const loadingImage = new Image();
-    loadingImage.src = src;
-    loadingImage.onload = () => {
-      setCurrentImage(loadingImage.src);
-      setLoading(false);
-    };
-  };
-
   useEffect(() => {
-    fetchImage(image);
+    const loadImages = async () => {
+      try {
+        // Load preview image
+        const previewModule = await import(`../assets/imgs/small/${preview}.png`);
+        setCurrentImage(previewModule.default);
+
+        // Load full image
+  
+      } catch (error) {
+        console.error('Error loading images:', error);
+      }
+    };
+
+    loadImages();
   }, []);
+useEffect( ()=>{
+  const loadImagesMain = async () => {
+
+  const imageModule = await import(`../assets/imgs/${image}.png`);
+  setCurrentImage(imageModule.default);
+  setLoading(false);
+
+}
+
+  loadImagesMain()
+},[image])
+  if (!currentImage) return null;
 
   return (
     <div className={divStyleClass} style={{ overflow: 'hidden' }}>
       <img
-         width={600}
-         height={350}
+        width={600}
+        height={350}
         style={{
           filter: `${loading ? 'blur(20px)' : ''}`,
           transition: '.5s filter linear',
           width: '100%',
           background: bgColor,
         }}
-        src={currentImage}
+        src={currentImage.src}
         alt={alt}
         className={imageStyleClass}
       />
