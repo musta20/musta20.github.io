@@ -102,8 +102,8 @@ export default function MyDesign() {
                 href="http://baseproject.testgit.xyz/"
                 target={"_blank"}
               >
-
-                    <Image
+{/* 
+                  <Image
                   src={base.src}
                   alt="mediaspu-cli"
                   placeholder="blur"
@@ -113,12 +113,12 @@ export default function MyDesign() {
                    width={600}
                    height={350}
 
-                />
-            {/* <BlurryLoadingImage
+                /> */}
+            <BlurryLoadingImage
                   preview={basesmall.src}
                   image={base.src}
                    alt="mediaspu-cli"
-                /> */}
+                />
               </Link>
             </figure>
           </div>
@@ -132,7 +132,7 @@ export default function MyDesign() {
                 href="https://testgit.xyz/sadana/"
                 target={"_blank"}
               >
-
+{/* 
             <Image
                   src={sadana.src}
                   alt="mediaspu-cli"
@@ -143,12 +143,12 @@ export default function MyDesign() {
                    width={600}
                    height={350}
 
-                />
-                    {/* <BlurryLoadingImage
+                /> */}
+                    <BlurryLoadingImage
                   preview={sadanasmall.src}
                   image={sadana.src}
                    alt="mediaspu-cli"
-                /> */}
+                />
               </Link>
             </figure>
           </div>
@@ -164,7 +164,7 @@ export default function MyDesign() {
               >
 
 
-            <Image
+            {/* <Image
                   src={itc.src}
                   alt="mediaspu-cli"
                   placeholder="blur"
@@ -174,12 +174,12 @@ export default function MyDesign() {
                    width={600}
                    height={350}
 
-                />
-                 {/* <BlurryLoadingImage
+                /> */}
+                 <BlurryLoadingImage
                   preview={itcsmall.src}
                   image={itc.src}
                    alt="mediaspu-cli"
-                /> */}
+                />
               </Link>
             </figure>
           </div>
