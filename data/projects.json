@@ -42,7 +42,7 @@
     {
       "title": "Mediasoup-cli",
       "description": "JavaScript cli tool for monitoring mediasoup server applications.",
-      "image": "mediasoup",
+      "image": "mediasoup-cli.png",
       "links": [
         {
           "text": "github.com/musta20/mediasoup-cli",
@@ -57,7 +57,7 @@
     {
       "title": "laravel records filter",
       "description": "laravle package for filtering and sorting records in laravel applications.",
-      "image": "lrf",
+      "image": "laravel-records-filter.png",
       "links": [
         {
           "text": "github.com/musta20/laravel-records-filter",
