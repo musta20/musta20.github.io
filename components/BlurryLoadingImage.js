@@ -37,7 +37,7 @@ useEffect( ()=>{
 }
 
   loadImagesMain()
-},[image])
+},[])
   if (!currentImage) return null;
 
   return (
