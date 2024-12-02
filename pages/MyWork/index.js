@@ -196,7 +196,7 @@ export default function MyWork() {
                   https://nearme.testgit.xyz/login
                 </Link>
               </p>
-              <p>username : admin@admin</p>
+              <p>username : admin@admin.com</p>
               <p>password : Aa123456</p>
             </figcaption>
           </div>
