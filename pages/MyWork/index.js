@@ -133,14 +133,14 @@ export default function MyWork() {
                 </Link>
               </p>
 
-              <Link lagacyBehavior
+              {/* <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
                 href="https://wemet.live/"
                 target={"_blank"}
               >
                 https://wemet.live
-              </Link>
+              </Link> */}
               
             </figcaption>
           </div>
@@ -178,7 +178,7 @@ export default function MyWork() {
                 </Link>
               </p>
 
-              <Link lagacyBehavior
+              {/* <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
                 href="https://9802131.xyz/"
@@ -198,6 +198,7 @@ export default function MyWork() {
               </p>
               <p>username : admin@admin.com</p>
               <p>password : Aa123456</p>
+               */}
             </figcaption>
           </div>
         </figure>
@@ -234,7 +235,7 @@ export default function MyWork() {
                 </Link>
               </p>
 
-              <Link lagacyBehavior
+              {/* <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
                 href="https://9802131.xyz/"
@@ -254,6 +255,7 @@ export default function MyWork() {
               </p>
               <p>username : musta@musta.com</p>
               <p>password : 1234</p>
+              */}
             </figcaption>
           </div>
         </figure>
@@ -288,7 +290,7 @@ export default function MyWork() {
                   github.com/musta20/mybnb
                 </Link>
               </p>
-
+{/* 
               <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
@@ -299,7 +301,7 @@ export default function MyWork() {
               </Link>
               <p className="font-bold my-2">Login Credentials:</p>
               <p>Username: admin@admin.com</p>
-              <p>Password: password</p>
+              <p>Password: password</p> */}
             </figcaption>
           </div>
         </figure>
@@ -335,7 +337,7 @@ export default function MyWork() {
                 </Link>
               </p>
 
-              <Link lagacyBehavior
+              {/* <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
                 href="http://asset.testgit.xyz/"
@@ -356,7 +358,7 @@ export default function MyWork() {
                 </Link>
               </p>
               <p>Username: admin@admin.com</p>
-              <p>Password: admin</p>
+              <p>Password: admin</p> */}
             </figcaption>
           </div>
         </figure>
@@ -389,7 +391,7 @@ export default function MyWork() {
                   github.com/musta20/baseProject
                 </Link>
               </p>
-
+{/* 
               <Link lagacyBehavior
                 className="text-[#50d8c8] font-bold hover:underline"
                 rel="noreferrer"
@@ -409,7 +411,7 @@ export default function MyWork() {
                 </Link>
               </p>
               <p>Username: admin@admin.com</p>
-              <p>Password: admin</p>
+              <p>Password: admin</p> */}
             </figcaption>
           </div>
         </figure>

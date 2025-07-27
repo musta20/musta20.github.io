@@ -96,7 +96,9 @@ export default function MyDesign() {
         {showGallery(shoesStore)}
         {showGallery(interorblogStore)}
 
-        {designs.map((design, index) => (
+ 
+
+        {/* {designs.map((design, index) => (
           <div key={index} className="border p-0 hover:shadow-lg hover:scale-110 hover:shadow-[#2b3d2f5d] duration-200">
             <figure id="mywork" className="design p-0">
               <Link rel="noreferrer" href={design.url} target="_blank">
@@ -108,7 +110,7 @@ export default function MyDesign() {
               </Link>
             </figure>
           </div>
-        ))}
+        ))} */}
 
         
  
